@@ -5,7 +5,7 @@ import Logo from '../../../assets/images/logo-won.svg';
 
 const Wrapper = styled.div`
   background-color: ${(props) =>
-    props.theme.main.colors.leftMenu['background-header-link']};
+    props.theme.main.colors.won['blue']};
   height: ${props => props.theme.main.sizes.leftMenu.height};
 
   .leftMenuHeaderLink {
