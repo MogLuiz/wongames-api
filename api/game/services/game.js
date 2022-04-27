@@ -28,6 +28,17 @@ async function getByName(name, entityName) {
   return item.length ? item[0] : null;
 }
 
+async function create(name, entityName) {
+  const item = await getByName(name, entityName);
+
+  if (!item) {
+    return await strapi.services[entityName].create({
+      name,
+      slug: slugify(name, { lower: true }),
+    });
+  }
+}
+
 module.exports = {
   populate: async (params) => {
     const gogApiUrl = `https://www.gog.com/games/ajax/filtered?mediaType=game&page=1&sort=popularity`;
