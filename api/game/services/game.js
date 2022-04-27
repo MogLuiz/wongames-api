@@ -30,6 +30,8 @@ module.exports = {
       data: { products },
     } = await axios.get(gogApiUrl);
 
-    console.log(await getGameInfo(products[0].slug));
+    console.log(products[0]);
+
+    // console.log(await getGameInfo(products[0].slug));
   },
 };
