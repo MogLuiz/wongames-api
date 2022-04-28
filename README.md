@@ -10,14 +10,13 @@ Won-Games API
 <p align="center">
    <a href="#dart-objetivo">Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-tópicos">Tópicos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#sunglasses-autor">Autor</a>
 </p>
 
 
 ## :dart: Objetivo
 
 <p>
-  API do projeto Won-Games que é uma plataforma de jogos digitais desenvolvida utilizando Strapi e Postgresql.
+  API do projeto Won-Games que é uma plataforma de jogos digitais desenvolvida utilizando Strapi e Postgresql do curso de React Avançado do professor Willian Justen.
 </p>
 
 
@@ -26,11 +25,3 @@ Won-Games API
 -   [x] [Strapi](https://docs.strapi.io/developer-docs/latest/getting-started/introduction.html)
 -   [x] [PostgreSQL](https://www.postgresql.org/docs/)
 
-
-## :sunglasses: Autor
-
-| [<img src="https://avatars.githubusercontent.com/u/58401291?v=4" width="75px;"/>][1] |
-| :-------------------------------------------------------------------: |
-|                         [Luiz Henrique][1]                          |
-
-[1]: https://github.com/MogLuiz
